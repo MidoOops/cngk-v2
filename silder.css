@@ -1,0 +1,16 @@
+/* Css Slider Posts */
+#featured-wrap {position: relative;height: 175px;margin: 0 auto;border-radius: 4px;background: #fff;}
+#featured {border: 0;outline: none;position: relative;width: 92%;height: 164px;overflow: hidden;top: 10px;margin: 0 auto;}
+.datex {display: none;}
+#featured ul{width:9999px}
+#featured ul,#featured li{list-style:none;padding:0;margin:0;overflow:hidden}
+#featured li {width: 150px;display: inline-block;float: left;height: 150px;background: #fff;}
+.thumb-featured {width: 130px;height: 100px;margin: 5px auto;border: 1px solid #fff;}
+.thumb-featured img {display: block;width: 134px;height: 94px;border: 3px solid #DC474C;cursor: url(http://4.bp.blogspot.com/-qkEpq30SGqY/VFDnmVq7KGI/AAAAAAAAGig/s9v1b9t3b-w/s1600/Untitled-2.png),pointer;-moz-transition: all .3s ease 0s;}
+.title-featured {text-align: center;position: relative;margin: 0 4px;font: 10px Electrolize,ge_dinar_oneregular;}
+.title-featured a {color: #29567D;}
+.title-featured h4{font-size: 12px;overflow:hidden}
+.arrow {position: absolute;display: block;width: 32px;height: 32px;top: 60px;text-indent: -9999px;}
+.arrow.back {left: 13px;background: transparent url(http://4.bp.blogspot.com/-tazd_K28hNA/VC1JAH9aZhI/AAAAAAAAGNM/fqwW3eGxCDI/s1600/lefthm.png)no-repeat;}
+.arrow.forward {background-position: 100% 50%;right: 10px;background: transparent url(http://3.bp.blogspot.com/-pI5M9xJ7490/VC1JAZWY04I/AAAAAAAAGNQ/I4PxW6BCsTE/s1600/righthm.png)no-repeat;}
+span.slideloading{text-indent:-9999px;margin:50px auto;font-family:Electrolize,ge_dinar_tworegular}
