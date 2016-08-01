@@ -1,0 +1,18 @@
+/*================================
+             صندوق البحث
+================================*/
+.dialog-box button[type=&quot;submit&quot;] {margin-top: 20px;    padding: 0.8em 2em;background-color: #D64545;   color: #FFFFFF;   border: none;   text-transform: uppercase;    -webkit-transition: all 0.3s;    -moz-transition: all 0.3s;    -ms-transition: all 0.3s;    -o-transition: all 0.3s;    transition: all 0.3s;}
+.dialog-box input[type=&quot;text&quot;] {  padding: 0 20px;font-size: 13px;   letter-spacing: 0.1em;color: #888; height: 50px;line-height: 1;background-color: #fff;border: 1px solid #ddd; -webkit-transition: all 0.2s;-moz-transition: all 0.2s;-ms-transition: all 0.2s; -o-transition: all 0.2s;transition: all 0.2s; box-sizing: border-box; width: 100%;}
+.dialog-box h2 { margin: 0;font-weight: 400; font-size: 50px;padding: 32px 0 25px; color: #fff;  text-transform: uppercase;}
+.dialog-box {max-width: 753px;min-width: 290px;padding: 20px;text-align: center;position: relative;z-index: 5;margin: auto;}
+.overlay { position: fixed; width: 100%; height: 100%; top: 0; left: 0; background: rgba(55, 58, 71, 0.9);}
+.overlay .overlay-close {width: 50px;height: 40px;position: absolute; right: 0px; top: 0px; border: none;  background: #E6E6E6; float: left; color: #353947;  outline: none;z-index: 100;}
+.overlay .dialog-inner{ text-align: center; position: relative;top: 50%; height: 60%; -webkit-transform: translateY(-50%); transform: translateY(-30%);}
+.overlay-mbl { opacity: 0; visibility: hidden; -webkit-transition: opacity 0.5s, visibility 0s 0.5s; transition: opacity 0.5s, visibility 0s 0.5s; z-index:100;}
+.overlay-mbl.open { opacity: 1; visibility: visible; -webkit-transition: opacity 0.5s; transition: opacity 0.5s;    animation: rubberBand 1s 1;}
+.dialog-box button[type=&quot;submit&quot;]:hover, {    background: #212121;}
+#trigger-overlay { float: left;    transition: 0.4s;}
+#trigger-overlay a { color: #fff; text-decoration:none;font-size:30px;}
+#trigger-overlay:hover {animation: jello 1s 1;}
+i.fa.fa-search {float: right;display: block;background: #F74047;color: #fff;text-align: center;padding: 10.5px;margin-right: 10px;box-shadow: inset 0 3px 9px rgba(0,0,0,.25);}
+  .fa-search:before{font-size: 27px;}
